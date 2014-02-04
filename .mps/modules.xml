@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.kontext_e.neo4j.cypher/de.kontext_e.neo4j.cypher.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.kontext_e.neo4j.cypher/sandbox/de.kontext_e.neo4j.cypher.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
+
