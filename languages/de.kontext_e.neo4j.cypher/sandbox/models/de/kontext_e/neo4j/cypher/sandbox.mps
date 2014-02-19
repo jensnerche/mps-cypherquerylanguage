@@ -68,8 +68,11 @@
           </node>
         </node>
       </node>
-      <node role="returnExpression" roleId="r8ia.2838125798393826089" type="r8ia.IdentifierReference" typeId="r8ia.2838125798393826154" id="8551591702208260669" nodeInfo="ng">
-        <link role="identifier" roleId="r8ia.2838125798393826157" targetNodeId="2838125798394419787" resolveInfo="movie" />
+      <node role="returnExpression" roleId="r8ia.2838125798393826089" type="r8ia.PropertyAccess" typeId="r8ia.9121192871131304377" id="9121192871131771267" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="title" />
+        <node role="identifierReference" roleId="r8ia.9121192871131442942" type="r8ia.IdentifierReference" typeId="r8ia.2838125798393826154" id="9121192871131771268" nodeInfo="ng">
+          <link role="identifier" roleId="r8ia.2838125798393826157" targetNodeId="2838125798394419787" resolveInfo="movie" />
+        </node>
       </node>
     </node>
   </root>
