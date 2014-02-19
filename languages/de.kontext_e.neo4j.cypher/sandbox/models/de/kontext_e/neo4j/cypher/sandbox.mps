@@ -9,6 +9,7 @@
     <node role="clause" roleId="r8ia.2838125798393826194" type="r8ia.Match" typeId="r8ia.2838125798393815606" id="2838125798394074270" nodeInfo="ng">
       <node role="pathPattern" roleId="r8ia.2838125798393815687" type="r8ia.PathPattern" typeId="r8ia.2838125798393815650" id="2838125798394419773" nodeInfo="ng">
         <node role="pattern" roleId="r8ia.2838125798394074283" type="r8ia.Relationship" typeId="r8ia.2838125798394280054" id="2838125798394419785" nodeInfo="ng">
+          <property name="direction" nameId="r8ia.9121192871130048683" value="none" />
           <node role="leftSide" roleId="r8ia.2838125798394280106" type="r8ia.Node" typeId="r8ia.2838125798393815715" id="2838125798394419786" nodeInfo="ng">
             <node role="identifier" roleId="r8ia.2838125798393815746" type="r8ia.Identifier" typeId="r8ia.2838125798393815573" id="2838125798394419787" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="movie" />
@@ -66,12 +67,15 @@
               </node>
             </node>
           </node>
+          <node role="identifier" roleId="r8ia.9121192871131771378" type="r8ia.Identifier" typeId="r8ia.2838125798393815573" id="9121192871131950146" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="r" />
+          </node>
         </node>
       </node>
-      <node role="returnExpression" roleId="r8ia.2838125798393826089" type="r8ia.PropertyAccess" typeId="r8ia.9121192871131304377" id="9121192871131771267" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="title" />
-        <node role="identifierReference" roleId="r8ia.9121192871131442942" type="r8ia.IdentifierReference" typeId="r8ia.2838125798393826154" id="9121192871131771268" nodeInfo="ng">
-          <link role="identifier" roleId="r8ia.2838125798393826157" targetNodeId="2838125798394419787" resolveInfo="movie" />
+      <node role="returnExpression" roleId="r8ia.2838125798393826089" type="r8ia.PropertyAccess" typeId="r8ia.9121192871131304377" id="9121192871132098440" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="relationshopattribute" />
+        <node role="identifierReference" roleId="r8ia.9121192871131442942" type="r8ia.IdentifierReference" typeId="r8ia.2838125798393826154" id="9121192871132098441" nodeInfo="ng">
+          <link role="identifier" roleId="r8ia.2838125798393826157" targetNodeId="9121192871131950146" resolveInfo="r" />
         </node>
       </node>
     </node>
