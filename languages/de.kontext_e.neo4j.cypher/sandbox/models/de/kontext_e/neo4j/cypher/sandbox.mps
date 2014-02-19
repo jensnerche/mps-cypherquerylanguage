@@ -34,6 +34,7 @@
             </node>
           </node>
           <node role="rightSide" roleId="r8ia.2838125798394280108" type="r8ia.Relationship" typeId="r8ia.2838125798394280054" id="8551591702208184763" nodeInfo="ng">
+            <property name="direction" nameId="r8ia.9121192871130048683" value="none" />
             <node role="leftSide" roleId="r8ia.2838125798394280106" type="r8ia.Node" typeId="r8ia.2838125798393815715" id="8551591702208184764" nodeInfo="ng">
               <node role="identifier" roleId="r8ia.2838125798393815746" type="r8ia.Identifier" typeId="r8ia.2838125798393815573" id="8551591702208184765" nodeInfo="ng">
                 <property name="name" nameId="tpck.1169194664001" value="b" />

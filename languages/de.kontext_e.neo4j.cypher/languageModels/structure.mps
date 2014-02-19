@@ -198,6 +198,10 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="value" />
     <property name="name" nameId="tpck.1169194664001" value="Relationship" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="9121192871130048683" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="direction" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="9121192871130030333" resolveInfo="RelationshipDirection" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2838125798394280106" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="leftSide" />
@@ -252,6 +256,23 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8551591702208260759" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="9121192871130030333" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="value" />
+    <property name="name" nameId="tpck.1169194664001" value="RelationshipDirection" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="9121192871130030792" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="none" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="none" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="9121192871130048503" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="left to right" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="left to right" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="9121192871130048617" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="right to left" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="right to left" />
     </node>
   </root>
 </model>
