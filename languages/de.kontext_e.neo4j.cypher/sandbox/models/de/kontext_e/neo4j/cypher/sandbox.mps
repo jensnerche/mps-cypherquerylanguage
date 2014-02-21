@@ -70,6 +70,14 @@
           <node role="identifier" roleId="r8ia.9121192871131771378" type="r8ia.Identifier" typeId="r8ia.2838125798393815573" id="9121192871131950146" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="r" />
           </node>
+          <node role="relationshipTypeList" roleId="r8ia.1098523578969154501" type="r8ia.RelationshipTypeList" typeId="r8ia.9121192871132098483" id="1098523578969828780" nodeInfo="ng">
+            <node role="relationshipType" roleId="r8ia.9121192871132098610" type="r8ia.RelationshipType" typeId="r8ia.9121192871132098609" id="1098523578969828781" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="ACTED_IN" />
+            </node>
+            <node role="relationshipType" roleId="r8ia.9121192871132098610" type="r8ia.RelationshipType" typeId="r8ia.9121192871132098609" id="1098523578969828874" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="DIRECTED" />
+            </node>
+          </node>
         </node>
       </node>
       <node role="returnExpression" roleId="r8ia.2838125798393826089" type="r8ia.PropertyAccess" typeId="r8ia.9121192871131304377" id="9121192871132098440" nodeInfo="ng">
