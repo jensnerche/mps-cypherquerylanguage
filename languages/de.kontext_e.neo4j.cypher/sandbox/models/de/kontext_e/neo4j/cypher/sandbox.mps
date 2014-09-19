@@ -109,30 +109,61 @@
         </node>
       </node>
     </node>
-    <node role="result" roleId="r8ia.1809959481496298894" type="r8ia.QueryResult" typeId="r8ia.1809959481496298903" id="1809959481497138811" nodeInfo="ng">
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138812" nodeInfo="ng">
-        <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
+    <node role="result" roleId="r8ia.1809959481496298894" type="r8ia.QueryResult" typeId="r8ia.1809959481496298903" id="1809959481497809819" nodeInfo="ng">
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497809820" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="MATCH (movie:Movie name:Matrixyear:1999{name:Matrixyear:1999})(b och:noe{och:noe})(c )(d:Blubb )(e:xxx )-------[r:ACTED_IN:DIRECTED:GGG]- RETURN r.relationshopattribute" />
       </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138813" nodeInfo="ng">
-        <property name="line" nameId="r8ia.1809959481496298923" value="| count(n) |&#13;" />
-      </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138814" nodeInfo="ng">
-        <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
-      </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138815" nodeInfo="ng">
-        <property name="line" nameId="r8ia.1809959481496298923" value="| 2789     |&#13;" />
-      </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138816" nodeInfo="ng">
-        <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
-      </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138817" nodeInfo="ng">
-        <property name="line" nameId="r8ia.1809959481496298923" value="1 row&#13;" />
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497809821" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="" />
       </node>
     </node>
   </root>
   <root type="r8ia.DatabaseConfiguration" typeId="r8ia.1809959481496771856" id="1809959481496960403" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="alphabet2" />
     <property name="dbPath" nameId="r8ia.1809959481496771947" value="C:/Users/jn/projects/alphabet2/tmp/store" />
+  </root>
+  <root type="r8ia.Query" typeId="r8ia.2838125798393826193" id="1809959481497809851" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Simple Query" />
+    <node role="clause" roleId="r8ia.2838125798393826194" type="r8ia.Match" typeId="r8ia.2838125798393815606" id="1809959481497812012" nodeInfo="ng">
+      <node role="pathPattern" roleId="r8ia.2838125798393815687" type="r8ia.PathPattern" typeId="r8ia.2838125798393815650" id="1809959481497812014" nodeInfo="ng">
+        <node role="pattern" roleId="r8ia.2838125798394074283" type="r8ia.Node" typeId="r8ia.2838125798393815715" id="1809959481497812022" nodeInfo="ng">
+          <node role="identifier" roleId="r8ia.2838125798393815746" type="r8ia.Identifier" typeId="r8ia.2838125798393815573" id="1809959481497812024" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="n" />
+          </node>
+          <node role="labelList" roleId="r8ia.8551591702207303766" type="r8ia.LabelList" typeId="r8ia.8551591702207274624" id="1809959481497812098" nodeInfo="ng">
+            <node role="labels" roleId="r8ia.8551591702207283909" type="r8ia.Label" typeId="r8ia.2838125798394239546" id="1809959481497812099" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Class" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="returnExpression" roleId="r8ia.2838125798393826089" type="r8ia.StringLiteral" typeId="r8ia.2838125798393815540" id="1809959481497812076" nodeInfo="ng">
+        <property name="value" nameId="r8ia.2838125798393815543" value="count(n)" />
+      </node>
+    </node>
+    <node role="result" roleId="r8ia.1809959481496298894" type="r8ia.QueryResult" typeId="r8ia.1809959481496298903" id="1809959481497854196" nodeInfo="ng">
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497854197" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="MATCH (n:Class ) RETURN count(n)" />
+      </node>
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497854198" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
+      </node>
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497854199" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="| count(n) |&#13;" />
+      </node>
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497854200" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
+      </node>
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497854201" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="| 2789     |&#13;" />
+      </node>
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497854202" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
+      </node>
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497854203" nodeInfo="ng">
+        <property name="line" nameId="r8ia.1809959481496298923" value="1 row&#13;" />
+      </node>
+    </node>
   </root>
 </model>
 
