@@ -109,26 +109,30 @@
         </node>
       </node>
     </node>
-    <node role="result" roleId="r8ia.1809959481496298894" type="r8ia.QueryResult" typeId="r8ia.1809959481496298903" id="1809959481496571821" nodeInfo="ng">
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481496571822" nodeInfo="ng">
+    <node role="result" roleId="r8ia.1809959481496298894" type="r8ia.QueryResult" typeId="r8ia.1809959481496298903" id="1809959481497138811" nodeInfo="ng">
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138812" nodeInfo="ng">
         <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
       </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481496571823" nodeInfo="ng">
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138813" nodeInfo="ng">
         <property name="line" nameId="r8ia.1809959481496298923" value="| count(n) |&#13;" />
       </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481496571824" nodeInfo="ng">
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138814" nodeInfo="ng">
         <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
       </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481496571825" nodeInfo="ng">
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138815" nodeInfo="ng">
         <property name="line" nameId="r8ia.1809959481496298923" value="| 2789     |&#13;" />
       </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481496571826" nodeInfo="ng">
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138816" nodeInfo="ng">
         <property name="line" nameId="r8ia.1809959481496298923" value="+----------+&#13;" />
       </node>
-      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481496571827" nodeInfo="ng">
+      <node role="lines" roleId="r8ia.1809959481496299001" type="r8ia.QueryResultLine" typeId="r8ia.1809959481496298915" id="1809959481497138817" nodeInfo="ng">
         <property name="line" nameId="r8ia.1809959481496298923" value="1 row&#13;" />
       </node>
     </node>
+  </root>
+  <root type="r8ia.DatabaseConfiguration" typeId="r8ia.1809959481496771856" id="1809959481496960403" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="alphabet2" />
+    <property name="dbPath" nameId="r8ia.1809959481496771947" value="C:/Users/jn/projects/alphabet2/tmp/store" />
   </root>
 </model>
 

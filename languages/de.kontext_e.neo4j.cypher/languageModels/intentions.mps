@@ -433,10 +433,21 @@
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="aws5.1809959481496245380" resolveInfo="asText" />
                 </node>
               </node>
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2055061243622980800" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="2055061243622980655" nodeInfo="nn" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1809959481496233258" nodeInfo="nn">
-                  <link role="property" roleId="tp25.1138056395725" targetNodeId="r8ia.2055061243622488081" resolveInfo="dbPath" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1809959481496994170" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1809959481496972970" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1809959481496966107" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2055061243622980800" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="2055061243622980655" nodeInfo="nn" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="1809959481496964807" nodeInfo="nn" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_NodesOperation" typeId="tp25.1171323947159" id="1809959481496967218" nodeInfo="nn">
+                      <link role="concept" roleId="tp25.1171323947160" targetNodeId="r8ia.1809959481496771856" resolveInfo="DatabaseConfiguration" />
+                    </node>
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="1809959481496986695" nodeInfo="nn" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1809959481496996381" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="r8ia.1809959481496771947" resolveInfo="dbPath" />
                 </node>
               </node>
             </node>
