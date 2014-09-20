@@ -640,5 +640,12 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1809959481496774264" nodeInfo="nn" />
     </node>
   </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1809959481498003045" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="expression" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="r8ia.1809959481497955548" resolveInfo="CypherFunction" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1809959481498003359" nodeInfo="ng">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="r8ia.1809959481498003020" resolveInfo="function" />
+    </node>
+  </root>
 </model>
 
