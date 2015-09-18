@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="r8ia" modelUID="r:295ccc48-b5a5-414c-af7e-12634d032db5(de.kontext_e.neo4j.cypher.structure)" version="0" />
+    </dependencies>
+    <rename id="r8ia.2838125798393826194" type="CHILD" from="clause" to="clauses" />
+  </StructureModification>
+</history>
+
