@@ -141,12 +141,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2tz361D8E9y" resolve="PathPattern" />
     </node>
-    <node concept="1TJgyj" id="2tz361D8GGD" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="returnExpression" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2tz361D8E9z" resolve="Expression" />
-    </node>
     <node concept="PrWs8" id="2tz361D8E9c" role="PzmwI">
       <ref role="PrY4T" node="2tz361D8E97" resolve="ReadingClause" />
     </node>
@@ -246,6 +240,9 @@
     </node>
     <node concept="PrWs8" id="1$uh8WgpCcS" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="3sH0qgkiKVR" role="PzmwI">
+      <ref role="PrY4T" node="3sH0qgkiKSN" resolve="IStatement" />
     </node>
   </node>
   <node concept="1TIwiD" id="2tz361DahCU">
@@ -429,6 +426,12 @@
     <property role="3GE5qa" value="clause.general_clause" />
     <property role="TrG5h" value="Where" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3sH0qgkkiPI" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2tz361D8E9z" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="1$uh8Wg_W_E" role="PzmwI">
       <ref role="PrY4T" node="1$uh8Wg_W_B" resolve="GeneralClause" />
     </node>
@@ -438,6 +441,23 @@
     <property role="TrG5h" value="GeneralClause" />
     <node concept="PrWs8" id="1$uh8Wg_W_C" role="PrDN$">
       <ref role="PrY4T" node="2tz361D8E99" resolve="Clause" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3sH0qgkiKSN">
+    <property role="TrG5h" value="IStatement" />
+  </node>
+  <node concept="1TIwiD" id="3sH0qgkiKYH">
+    <property role="3GE5qa" value="clause.general_clause" />
+    <property role="TrG5h" value="Return" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3sH0qgkiQfT" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="returnExpression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2tz361D8E9z" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="3sH0qgkiKYI" role="PzmwI">
+      <ref role="PrY4T" node="1$uh8Wg_W_B" resolve="GeneralClause" />
     </node>
   </node>
 </model>

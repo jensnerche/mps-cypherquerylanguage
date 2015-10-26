@@ -22,8 +22,14 @@
       <concept id="1809959481496298915" name="de.kontext_e.neo4j.cypher.structure.QueryResultLine" flags="ng" index="9sq4G">
         <property id="1809959481496298923" name="line" index="9sq4$" />
       </concept>
+      <concept id="1809959481498913073" name="de.kontext_e.neo4j.cypher.structure.Where" flags="ng" index="9yoQY">
+        <child id="3975835850265144686" name="expression" index="zv2Na" />
+      </concept>
       <concept id="1809959481497955548" name="de.kontext_e.neo4j.cypher.structure.CypherFunction" flags="ng" index="9_Qxj">
         <property id="1809959481498003020" name="function" index="9_Ub3" />
+      </concept>
+      <concept id="3975835850264743853" name="de.kontext_e.neo4j.cypher.structure.Return" flags="ng" index="zpwS9">
+        <child id="3975835850264765433" name="returnExpression" index="zpA9t" />
       </concept>
       <concept id="8551591702207274624" name="de.kontext_e.neo4j.cypher.structure.LabelList" flags="ng" index="W$Ono">
         <child id="8551591702207283909" name="labels" index="W$LAt" />
@@ -204,7 +210,7 @@
             </node>
             <node concept="W$Ono" id="1$uh8WgzfKZ" role="W$WGe">
               <node concept="1eixpq" id="1$uh8WgzfL0" role="W$LAt">
-                <property role="TrG5h" value="CLASS " />
+                <property role="TrG5h" value="Class " />
               </node>
             </node>
           </node>
@@ -214,7 +220,7 @@
             </node>
             <node concept="W$Ono" id="1$uh8WgzfLi" role="W$WGe">
               <node concept="1eixpq" id="1$uh8WgzfLj" role="W$LAt">
-                <property role="TrG5h" value="PACKAGE" />
+                <property role="TrG5h" value="Package" />
               </node>
             </node>
           </node>
@@ -228,7 +234,17 @@
           </node>
         </node>
       </node>
-      <node concept="9_Qxj" id="1$uh8WgzfJ_" role="1egst9">
+    </node>
+    <node concept="9yoQY" id="3sH0qgkiKPY" role="1egsvM">
+      <node concept="1H3UOI" id="3sH0qgklavW" role="zv2Na">
+        <property role="TrG5h" value="fqn == 'a.b.c'" />
+        <node concept="1egssa" id="3sH0qgklavX" role="1H2p9D">
+          <ref role="1egssd" node="1$uh8Wgp_eO" resolve="c" />
+        </node>
+      </node>
+    </node>
+    <node concept="zpwS9" id="3sH0qgkkg0z" role="1egsvM">
+      <node concept="9_Qxj" id="3sH0qgkkg2D" role="zpA9t">
         <property role="9_Ub3" value="count(p) as cnt" />
       </node>
     </node>
